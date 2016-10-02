@@ -13,7 +13,7 @@ Usage:
   gr: Grades the notebook files inside the nb_files folder and puts everythings inside graded folder in main path and all_grades.txt.
   up: Updates the bulk_download folder, i.e. puts the comments.txt files in place and puts the grades in grades.csv.
 
-Copyright 2015 Roshan Tourani
+Copyright 2016 Roshan Tourani
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
