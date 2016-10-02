@@ -26,11 +26,11 @@ This will look for all the nb files inside the bulk_download folder and copy the
 **Step 7.** Put your comments inside the nb file, at the appropriate spot, using this format,  
 `<cm>[pts to subtract out of 10.0] Your comment.</cm>`  
 For example,  
-`<cm>[0.3] You are messing up the significant figures. Match them between the number and its error.</cm>`  
-Do not forget to close the <cm> tag with </cm>. The grading_helper.py is really unforgiving when it comes to tags, unlike html.  
-If you do not use [0.3] above, the default default_pts_subtraction_per_comment will apply which I set to 0.2 in the grading_helper.py.
+`<cm>[0.3] You have used wrong number of significant figures. Match them between the number and its error.</cm>`  
+Do not forget to close the `<cm>` tag with `</cm>`. The grading_helper.py is really unforgiving when it comes to tags, unlike html.  
+If you do not use [0.3] on above example, the default default_pts_subtraction_per_comment will apply which I set to 0.2 in the grading_helper.py.
 You can change it if you like.  
-Only use brackets [] for grading purposes, like above, and inside <cm></cm> tags.
+Only use brackets [] for grading purposes, like above, and inside cm tag.
 I mean, do not use brackets [] for anything else. If this would bother you let me know.  
 **Step 8.** Now that you put your comments, at the appropriate spots, run,
 ```
@@ -44,4 +44,4 @@ python grading_helper.py --mode up
 ```
 This will update all the comments.txt files and grades.csv file inside bulk_download folder.  
 **Step 11.** Now make a zip file using 'the lab folder'. Do not zip the bulk_download folder. It won't work with Sakai.  
-**Step 12.** Now go to the assignment and click on Upload All and choose the zip file you made. You are done putting everything in place.
+**Step 12.** Now go to the assignment on Sakai and click on Upload All and choose the zip file you made. You are done putting everything in place.
