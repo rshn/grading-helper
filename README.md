@@ -5,11 +5,7 @@ out of a text format file and calculate the grades and update everything for Sak
 
 How to use this code:
 
-1) The only thing you need so you can use this program is to have Python 3 installed on your computer.  
-If you are a fan of Python 2.7 or any 2.x,
-just go through the grading_helper.py and change 'print(whatever)' to 'print whatever' in the file.
-I did not use anything specific to Python 3.
-
+1) The only thing you need so you can use this program is to have Python (2.x or 3.x) installed on your computer.
 2) When you want to grade follow these steps,
 
 **Step 1.** Go to the Assignment in Sakai and click on Download All which will give you a bulk_download.zip file.  
